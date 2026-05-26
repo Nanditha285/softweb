@@ -1,0 +1,38 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KERALA CAFE</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<nav>
+    <h2>KERALA CAFE</h2>
+    <a href="/">Home</a>
+    <a href="/menu/">Menu</a>
+    <a href="/administration/">Administration</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+<section class="hero">
+    {% load static %}
+    <img src="{% static 'images/image.png' %}" width="100%" height="400">
+    <h1>Welcome to Kerala Cafe</h1>
+    <p>Delicious food served with love and homely taste.</p>
+    <a href="/menu/" class="btn">View Menu</a>
+</section>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>
+        Kerala Cafe is a premium restaurant serving authentic and delicious kerala food
+    </p>
+</section>
+
+<footer>
+    <p>Created by Nanditha Shaji</p>
+</footer>
+
+</body>
+</html>
